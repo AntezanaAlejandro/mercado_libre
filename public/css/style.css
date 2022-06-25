@@ -1,0 +1,26 @@
+/*BREAKPOINT 0*/
+*{box-sizing: border-box;}
+
+/*BREAKPOINT 1*/
+@media(min-width: 390px)and(orentation=landscape){
+    *{box-sizing: border-box;}
+
+}
+
+/*BREAKPOINT 2*/
+@media(min-width: 560px)and(orentation=landscape){
+*{box-sizing: border-box;}
+
+}
+
+/*BREAKPOINT 3*/
+@media(min-width: 730px)and(orentation=landscape){
+*{box-sizing: border-box;}
+
+}
+
+/*BREAKPOINT 4*/
+@media(min-width: 1020px)and(orentation=landscape){
+    *{box-sizing: border-box;}
+    
+    }
