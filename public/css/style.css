@@ -107,13 +107,75 @@ p{
     display: flex;
     flex-wrap: wrap;
     position: absolute;
-    top: 7.8vh;
+    top: 45px;
     left: 77vw;
 }
 i.fa-solid.fa-angle-right{
     color: rgb(145, 145, 145);
     font-size: 10px;
 }
+/*////////////////*/
+
+
+
+/*-----BODY-----*/
+.body{
+    background-color: #ebebeb;
+}
+.carrusel-box{
+    height: 142px;
+    display: flex;
+    flex-wrap: wrap
+}
+.banner{
+    width: 81%;
+}
+.cuotas-box{
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 0px 0.5px black;
+    display: flex;
+    flex-wrap: wrap;
+    height: 72px;
+    justify-content: center;
+    width: 100%;
+}
+.tarjeta{
+    height: fit-content;
+    margin-right: 3vw;
+}
+i.fa-solid.fa-credit-card{
+    color: rgba(0, 68, 241, 0.879);
+    padding: 10px;
+    border: 0.5px solid rgb(233, 233, 233);
+    border-radius: 50%;
+}
+.cuotas-text{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 0px 16vw 0px 0px;
+}
+p1{
+    font-size: 15px;
+
+}
+p2{
+    color: rgba(0, 68, 241, 0.879);
+    font-size: 13px;
+}
+.ofertas-box{}
+.creaCuenta-box{}
+.subscripcion{}
+.beneficios-box{}
+.marcaOferta-box{}
+.productoOferta1{}
+.productoOferta2{}
+.tiendasOficiales-box{}
+.productoOferta3{}
+.productoOferta4{}
+.categoriasPopulares-box{}
+.opcionesDePago-box{}
 /*////////////////*/
 
 
