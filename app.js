@@ -8,12 +8,6 @@ app.use(express.static('public'));
 app.get('/', (req, res)=>{
   res.sendFile(path.resolve(__dirname,'./views/index.html'));
 })
-app.get('/creacionDeCuenta', (req, res)=>{
-  res.sendFile(path.resolve(__dirname,'./views/register.html'));
-})
-app.get('/ingresaATuCuenta', (req, res)=>{
-  res.sendFile(path.resolve(__dirname,'./views/login.html'));
-})
 //Ruteo LOCAL
 app.listen(3001, ()=> console.log("Servidor escuchando en puerto 3001"));
 //ruteo HEROKU
