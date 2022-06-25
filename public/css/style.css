@@ -1,5 +1,142 @@
-/*BREAKPOINT 0*/
+/*BREAKPOINT 0 (0px-390px)*/
 *{box-sizing: border-box;}
+
+/*-----HEADER-----*/
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    z-index: 10;
+}
+/*----TOP----*/
+.top{
+    background-color:#fff159;
+    box-shadow: 0px 0.1px 0.1px rgb(153, 153, 153);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height:39px;
+    position: fixed;
+    width:100vw;
+    z-index: 9;
+}
+.logo-box{
+    height: 100%;
+    width: 46px;
+}
+.logo{
+    height: 32.5px;
+    margin: 2px 5px 0px 5px;
+    width: 41px;
+}
+.buscador-box{
+    height: 30px;
+}
+.lupa-box{
+    color: rgb(181, 179, 179);
+    font-size: 11px;
+    position: absolute;
+    top: 13px;
+    left: 61px;
+}
+.buscador{
+    border: none;
+    border-radius: 0.1em;
+    box-shadow: 0px 0.1px 1px rgb(153, 153, 153);
+    height: 25px;
+    margin: 6.5px 0px 0px 5px;
+    width: 48.5vw;
+}
+.menu-box{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 11%;
+}
+i.fa-solid.fa-bars{
+    color: rgb(24, 24, 24);
+    font-size: 19px;
+}
+.carro-box{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 6%;
+}
+i.fa-solid.fa-cart-shopping{
+    color: rgb(24, 24, 24);
+    font-size: 17px;
+}
+/*----SUBTOP----*/
+.subtop{
+    background-color:#fff159;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height:32px;
+    margin-top: 39px;
+    width:100vw;
+    z-index: 8;
+}
+.pin-box{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 12px;
+    height: 100%;
+    justify-content: flex-start;
+    width: 25px;
+}
+i.fa-solid.fa-location-dot{
+    color: rgb(65, 65, 65);
+    margin: 0px 0px 5px 9px;
+}
+.envio-box{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+p{
+    font-size: 10px;
+    margin: 0%;
+}
+.flecha-box{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 7.8vh;
+    left: 77vw;
+}
+i.fa-solid.fa-angle-right{
+    color: rgb(145, 145, 145);
+    font-size: 10px;
+}
+/*////////////////*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*BREAKPOINT 1*/
 @media(min-width: 390px)and(orentation=landscape){
